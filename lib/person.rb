@@ -5,7 +5,7 @@ class Person
 
 def initialize(propertie)
 properties.each do |x,y|
-  self.send("#x=", y)
+  self.send("#{x=}", y)
 
 end 
 end 
