@@ -4,7 +4,7 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialize(propertie)
-properties.each do |x,y|
+propertie.each do |x,y|
   self.send("#{x}=", y)
 
 end 
