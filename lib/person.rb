@@ -4,8 +4,8 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialize(propertie)
-properties.each do |param|
-  para
+properties.each do |x,y|
+  
 
 
 end 
